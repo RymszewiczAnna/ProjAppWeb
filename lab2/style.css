@@ -1,0 +1,90 @@
+/* Style dla menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+/* Style tła */
+body {
+    
+    font-family: Arial, sans-serif;
+}
+
+/* Formatowanie tekstu */
+.text-format {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Obrazy oblewane tekstem */
+img.float-left {
+    float: left;
+    margin-right: 10px;
+}
+
+img.float-right {
+    float: right;
+    margin-left: 10px;
+}
+
+/* Style dla tabeli */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: none;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    background-color:#f0f0f0;
+}
+
+/* Formularz kontaktowy */
+form {
+	max-width: 600px;
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
