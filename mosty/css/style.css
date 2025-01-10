@@ -1,0 +1,274 @@
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Softer background color */
+    color: #444; /* Slightly lighter text color for readability */
+    line-height: 1.8; /* Increased line height for better readability */
+}
+
+/* Header Styling */
+header {
+    background-color: #4A90E2; /* Softer blue for a friendlier look */
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px; /* Increased padding for a more spacious feel */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.8em; /* Slightly smaller font size for balance */
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation Bar */
+table {
+    width: 100%;
+    background: #4A90E2; /* Matches header for consistency */
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 10px; /* Rounded corners for a softer look */
+    overflow: hidden;
+}
+
+table th {
+    padding: 15px;
+    text-align: center;
+    background-color: #357ABD; /* Slightly darker blue for contrast */
+    color: #fff;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+table th a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+table th a:hover {
+    color: #FFD700; /* Gold hover effect for better visibility */
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    padding: 50px 30px; /* Increased padding for a more spacious layout */
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 20px; /* Rounded corners for a modern look */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    max-width: 1200px; /* Limit width for better readability */
+    text-align: center;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    font-size: 2.2em;
+    color: #4A90E2; /* Matches header for consistency */
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 1.2px;
+}
+
+/* Image Styling */
+.plakat, .obrazek {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%; /* Slightly larger images for better visibility */
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plakat:hover, .obrazek:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Section Styling */
+.test-block {
+    width: 260px;
+    padding: 20px;
+    background: linear-gradient(135deg, #F39C12, #E67E22); /* Gradient for a modern look */
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 20px auto; /* Centered buttons */
+}
+
+.test-block:hover {
+    background: linear-gradient(135deg, #E67E22, #D35400); /* Darker gradient on hover */
+    transform: translateY(-3px);
+}
+
+/* Buttons */
+input[type="button"] {
+    margin: 12px;
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #4A90E2, #357ABD); /* Gradient for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background: linear-gradient(135deg, #357ABD, #2C3E50); /* Darker gradient on hover */
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    background-color: #4A90E2;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* Clock and Date Styling */
+#zegarek, #data {
+    font-size: 1.6em;
+    font-weight: 500;
+    background-color: #357ABD;
+    color: #fff;
+    padding: 18px 30px;
+    border-radius: 30px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Menu */
+table.menu {
+    width: 100%;
+    background-color: #4A90E2;
+    color: white;
+    padding: 12px 0;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.menu td {
+    padding: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    color: #FFD700;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    body {
+        background-color: #f9f9f9;
+    }
+
+    header {
+        padding: 40px 20px;
+    }
+
+    section {
+        padding: 30px 20px;
+    }
+
+    .test-block {
+        width: 90%; /* Full width for smaller screens */
+    }
+}
+/* Page Selection Menu Styling */
+nav.menu {
+    display: flex;
+    justify-content: center; /* Center the menu */
+    background-color: #4A90E2; /* Matches the header for consistency */
+    padding: 15px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Rounded corners for a softer look */
+    margin: 20px auto;
+    max-width: 1200px; /* Limit the width for better layout */
+}
+
+nav.menu ul {
+    list-style: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Horizontal layout */
+    gap: 20px; /* Space between menu items */
+}
+
+nav.menu li {
+    position: relative; /* For dropdowns if needed */
+}
+
+nav.menu a {
+    text-decoration: none;
+    color: #fff; /* White text for contrast */
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 8px; /* Rounded corners for links */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+nav.menu a:hover {
+    background-color: #357ABD; /* Slightly darker blue on hover */
+    transform: translateY(-3px); /* Subtle lift effect */
+}
+
+nav.menu a.active {
+    background-color: #FFD700; /* Highlight active page with gold */
+    color: #4A90E2; /* Contrast text color for active link */
+    font-weight: bold;
+}
+
+/* Responsive Menu */
+@media (max-width: 768px) {
+    nav.menu {
+        flex-direction: column; /* Stack menu items vertically */
+        align-items: center;
+    }
+
+    nav.menu ul {
+        flex-direction: column; /* Vertical layout for smaller screens */
+        gap: 10px; /* Reduce spacing between items */
+    }
+
+    nav.menu a {
+        font-size: 1em; /* Slightly smaller font size for mobile */
+        padding: 10px 15px;
+    }
+}
