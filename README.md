@@ -1,6 +1,5 @@
 # System Zarządzania Harmonogramem Projektu
 
-![Project Management System](https://via.placeholder.com/800x200.png?text=System+Zarzadzania+Harmonogramem+Projektu)
 
 ## 📖 Opis projektu
 System Zarządzania Harmonogramem Projektu to narzędzie wspierające zarządzanie projektami. Umożliwia planowanie, monitorowanie i kontrolowanie zadań, co pozwala na efektywne zarządzanie czasem i zasobami.
